@@ -27,7 +27,7 @@ provider:
   environment:
     USERS_TABLE: Users-${self:provider.stage}
     USERS_CREATED_AT_INDEX: CreatedAtIndex
-    ATTACHMENT_S3_BUCKET: serverless-social-images-215302577-${self:provider.stage}
+    ATTACHMENT_S3_BUCKET: serverless-final-images-215302577-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
 
   logs:
@@ -221,8 +221,8 @@ custom:
   api:
       info:
         version: v1.0.0
-        title: SOCIAL - API
-        description: Serverless application for social
+        title: Final - API
+        description: Serverless application for final
 
   documentation:
     models:

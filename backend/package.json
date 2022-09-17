@@ -1,7 +1,7 @@
 {
-  "name": "serverless-social-app",
+  "name": "serverless-final-project",
   "version": "1.0.0",
-  "description": "Serverless SOCIAL app",
+  "description": "Serverless final project",
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/http-errors": "^1.8.2",
